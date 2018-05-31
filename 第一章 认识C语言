@@ -1,0 +1,29 @@
+#include <stdio.h>
+main()
+{
+	printf("Hello Git\n");
+}
+
+#include "stdio.h"
+main()
+{
+	float r,l,area;
+	r=2;
+	l=3.14*r*2;
+	area=3.14*r*r;
+	printf("\nl=%f,area=%f\n",l,area);
+}
+
+#include "stdio.h"
+void main()
+{
+	int i,j,sum;
+	int Add(int m,int n);
+	scanf("%d %d",&i,&j);
+	sum=Add(i,j);
+	printf("\Sum is %d\n",sum);
+}
+int Add (int m,int n)
+{
+	return m+n;
+}
